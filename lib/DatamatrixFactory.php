@@ -187,7 +187,7 @@ class DatamatrixFactory
 			$datamatrixData = '<div style="position:absolute; width:'.$this->size.'px; height:'.$this->size.'px">';
 		}
 		
-		$datamatrixData .= '<div style="font-size:0;position:absolute; width:'.($scale->size * $bcd['num_cols']).'px;height:'.($scale->size * $bcd['num_rows']).'px; top:'.$scale->posY.'px; left:'.$scale->posX.'px" z-index:1;>'."\n";
+		$datamatrixData .= '<div style="font-size:0;position:absolute; width:'.($scale->size * $bcd['num_cols']).'px;height:'.($scale->size * $bcd['num_rows']).'px; top:'.$scale->posY.'px; left:'.$scale->posX.'px; z-index:1;">'."\n";
 		
 		$w = $scale->size;
 		$h = $scale->size;
